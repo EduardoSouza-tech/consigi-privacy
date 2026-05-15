@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -10,103 +10,58 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background: #f5f7fa;
       color: #1a1a2e;
-      line-height: 1.7;
+      line-height: 1.75;
       font-size: 16px;
     }
     header {
       background: linear-gradient(135deg, #00008c, #000074);
       color: #fff;
-      padding: 40px 24px 32px;
+      padding: 44px 24px 36px;
       text-align: center;
     }
-    header h1 { font-size: 1.8rem; font-weight: 700; margin-bottom: 8px; }
-    header p { font-size: 0.95rem; opacity: 0.8; }
+    header h1 { font-size: 1.9rem; font-weight: 700; margin-bottom: 6px; }
+    header p  { font-size: 0.95rem; opacity: 0.8; margin-bottom: 4px; }
     .badge {
       display: inline-block;
       background: rgba(255,255,255,0.15);
       border: 1px solid rgba(255,255,255,0.3);
       border-radius: 20px;
-      padding: 4px 16px;
+      padding: 4px 18px;
       font-size: 0.85rem;
       margin-top: 12px;
     }
-    main {
-      max-width: 860px;
-      margin: 32px auto;
-      padding: 0 20px 60px;
-    }
+    main { max-width: 880px; margin: 36px auto; padding: 0 20px 70px; }
     section {
       background: #fff;
       border-radius: 12px;
-      padding: 32px;
+      padding: 32px 36px;
       margin-bottom: 24px;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+      box-shadow: 0 1px 5px rgba(0,0,0,0.07);
     }
     h2 {
-      font-size: 1.2rem;
+      font-size: 1.15rem;
       color: #00008c;
       font-weight: 700;
       margin-bottom: 16px;
       padding-bottom: 10px;
       border-bottom: 2px solid #e8eaf6;
     }
-    h3 {
-      font-size: 1rem;
-      font-weight: 600;
-      color: #1a1a2e;
-      margin: 20px 0 8px;
-    }
+    h3 { font-size: 1rem; font-weight: 600; color: #1a1a2e; margin: 20px 0 8px; }
     p { margin-bottom: 12px; }
     ul, ol { padding-left: 22px; margin-bottom: 12px; }
     li { margin-bottom: 6px; }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 16px 0;
-      font-size: 0.9rem;
-    }
-    th {
-      background: #e8eaf6;
-      color: #00008c;
-      font-weight: 600;
-      padding: 10px 12px;
-      text-align: left;
-      border: 1px solid #d0d5e8;
-    }
-    td {
-      padding: 9px 12px;
-      border: 1px solid #e8eaf6;
-      vertical-align: top;
-    }
+    dl dt { font-weight: 600; margin-top: 12px; }
+    dl dd { margin-left: 16px; color: #374151; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.9rem; }
+    th { background: #e8eaf6; color: #00008c; font-weight: 600; padding: 10px 12px; text-align: left; border: 1px solid #d0d5e8; }
+    td { padding: 9px 12px; border: 1px solid #e8eaf6; vertical-align: top; }
     tr:nth-child(even) td { background: #f8f9fd; }
-    .highlight {
-      background: #fff8e1;
-      border-left: 4px solid #f59e0b;
-      padding: 12px 16px;
-      border-radius: 0 8px 8px 0;
-      margin: 16px 0;
-      font-size: 0.95rem;
-    }
-    .no-collect {
-      background: #fef2f2;
-      border-left: 4px solid #ef4444;
-      padding: 12px 16px;
-      border-radius: 0 8px 8px 0;
-      margin: 16px 0;
-    }
-    .contact-box {
-      background: #e8eaf6;
-      border-radius: 10px;
-      padding: 20px 24px;
-      margin-top: 16px;
-    }
+    .highlight { background: #fff8e1; border-left: 4px solid #f59e0b; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+    .info { background: #e8eaf6; border-left: 4px solid #00008c; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+    .no-collect { background: #fef2f2; border-left: 4px solid #ef4444; padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+    .contact-box { background: #e8eaf6; border-radius: 10px; padding: 22px 26px; margin-top: 16px; line-height: 1.9; }
     .contact-box strong { color: #00008c; }
-    footer {
-      text-align: center;
-      padding: 24px;
-      font-size: 0.85rem;
-      color: #6b7280;
-    }
+    footer { text-align: center; padding: 28px; font-size: 0.85rem; color: #6b7280; border-top: 1px solid #e5e7eb; }
     @media (max-width: 600px) {
       section { padding: 20px 16px; }
       table { font-size: 0.8rem; }
@@ -115,209 +70,271 @@
   </style>
 </head>
 <body>
-
 <header>
   <h1>Política de Privacidade</h1>
-  <p>Aplicativo Consigi — Gestão de Consignado para Servidores Públicos</p>
-  <span class="badge">Versão 2.0.0 — Última atualização: 12 de março de 2026</span>
+  <p>Plataforma Consigi — Gestão de Consignado para Servidores Públicos Municipais</p>
+  <p>NOBE SOFTWARE DE GESTÃO INTEGRADA LTDA ME — CNPJ: 14.108.730/0001-15</p>
+  <span class="badge">Versão 2.1 — Última atualização: maio de 2026</span>
 </header>
-
 <main>
 
-  <section>
-    <h2>1. Introdução</h2>
-    <p>A <strong>ISS Intel Sistemas Inteligentes Ltda.</strong> ("ISS Intel", "nós" ou "nosso"), desenvolvedora e controladora do aplicativo <strong>Consigi</strong>, descreve nesta Política como coletamos, usamos, armazenamos, compartilhamos e protegemos os dados pessoais dos usuários, em conformidade com:</p>
-    <ul>
-      <li><strong>Lei Geral de Proteção de Dados Pessoais (LGPD)</strong> — Lei nº 13.709/2018</li>
-      <li><strong>Marco Civil da Internet</strong> — Lei nº 12.965/2014</li>
-      <li><strong>Código de Defesa do Consumidor</strong> — Lei nº 8.078/1990</li>
+<section>
+  <h2>1. Introdução</h2>
+  <p>A presente Política de Privacidade tem como objetivo demonstrar o compromisso da <strong>NOBE SOFTWARE DE GESTÃO INTEGRADA LTDA ME</strong> com a proteção dos dados pessoais de seus usuários, clientes, colaboradores e parceiros, adotando as melhores práticas de governança e segurança da informação.</p>
+  <p>Esta Política estabelece as diretrizes para coleta, uso, armazenamento, tratamento e compartilhamento de dados pessoais no âmbito da Plataforma Consigi, em conformidade com a <strong>Lei Geral de Proteção de Dados Pessoais — LGPD (Lei nº 13.709/2018)</strong>, a Constituição da República Federativa do Brasil de 1988 e, quando aplicável, o Código de Defesa do Consumidor (Lei nº 8.078/1990).</p>
+  <p>Ao utilizar a Plataforma Consigi, em suas versões Web ou Aplicativo (App), o usuário declara estar ciente e de acordo com os termos desta Política.</p>
+  <div class="highlight">
+    <strong>Sobre o Consigi:</strong> O Consigi é uma ferramenta de <strong>gestão de contracheques e contratos de crédito consignado</strong> exclusivamente para servidores públicos municipais. O aplicativo <strong>não concede empréstimos</strong> — ele exibe e gerencia informações de contratos já existentes, celebrados entre o servidor e as instituições financeiras conveniadas ao município empregador.
+  </div>
+</section>
+
+<section>
+  <h2>2. Definições</h2>
+  <p>Para os fins desta Política, aplicam-se as seguintes definições:</p>
+  <dl>
+    <dt>Agentes de Tratamento</dt><dd>São o Controlador e o Operador responsáveis pelo tratamento dos dados pessoais.</dd>
+    <dt>Controlador</dt><dd>Pessoa jurídica responsável pelas decisões referentes ao tratamento de dados pessoais.</dd>
+    <dt>Operador</dt><dd>Pessoa natural ou jurídica que realiza o tratamento de dados pessoais em nome do Controlador.</dd>
+    <dt>Titular dos Dados</dt><dd>Pessoa natural a quem se referem os dados pessoais tratados.</dd>
+    <dt>Dados Pessoais</dt><dd>Informações relacionadas a pessoa natural identificada ou identificável.</dd>
+    <dt>Dados Pessoais Sensíveis</dt><dd>Dados sobre origem racial ou étnica, convicção religiosa, opinião política, filiação sindical, dados referentes à saúde ou vida sexual, dados genéticos ou biométricos.</dd>
+    <dt>Dados Financeiros Sensíveis</dt><dd>Informações sobre remuneração, contratos de crédito, margens consignáveis e movimentações financeiras.</dd>
+    <dt>Tratamento de Dados</dt><dd>Toda operação realizada com dados pessoais, incluindo coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, processamento, armazenamento, eliminação ou anonimização.</dd>
+    <dt>Token de Autenticação</dt><dd>Código alfanumérico único usado para autenticar e autorizar acessos ao sistema.</dd>
+  </dl>
+</section>
+
+<section>
+  <h2>3. Controlador dos Dados</h2>
+  <p>O Controlador responsável pelo tratamento dos dados pessoais na Plataforma Consigi é:</p>
+  <div class="contact-box">
+    <p><strong>NOBE SOFTWARE DE GESTÃO INTEGRADA LTDA ME</strong></p>
+    <p><strong>CNPJ:</strong> 14.108.730/0001-15</p>
+    <p><strong>Endereço:</strong> Rua das Estrelas, nº 120, Torre 5, sala 300</p>
+    <p>Bairro Vila da Serra — Nova Lima/MG — CEP: 34.006-083</p>
+  </div>
+</section>
+
+<section>
+  <h2>4. Princípios Aplicados ao Tratamento de Dados</h2>
+  <p>O tratamento de dados pessoais na Plataforma Consigi observa os princípios estabelecidos pela LGPD:</p>
+  <h3>4.1 Finalidade</h3><p>Os dados são tratados para propósitos legítimos, específicos e previamente informados ao titular.</p>
+  <h3>4.2 Adequação e Necessidade</h3><p>A coleta e utilização dos dados são limitadas ao mínimo necessário para a execução dos serviços.</p>
+  <h3>4.3 Livre Acesso</h3><p>O titular pode consultar, a qualquer momento, os dados pessoais tratados pelo Controlador.</p>
+  <h3>4.4 Qualidade dos Dados</h3><p>São adotadas medidas para manter os dados atualizados, completos e precisos.</p>
+  <h3>4.5 Transparência</h3><p>As informações relacionadas ao tratamento de dados são fornecidas de forma clara e acessível.</p>
+  <h3>4.6 Segurança</h3><p>São aplicadas medidas técnicas e administrativas para proteger os dados contra acessos não autorizados, perdas ou vazamentos.</p>
+  <h3>4.7 Não Discriminação</h3><p>Os dados pessoais não serão utilizados para fins discriminatórios ou abusivos.</p>
+  <h3>4.8 Responsabilização e Prestação de Contas</h3><p>O Controlador demonstra a adoção de medidas eficazes para cumprimento das normas de proteção de dados.</p>
+</section>
+
+<section>
+  <h2>5. Finalidades do Tratamento de Dados</h2>
+  <p>O tratamento de dados pessoais ocorre para finalidades legítimas e específicas, incluindo:</p>
+  <ul>
+    <li>Cumprimento de obrigações legais e regulatórias</li>
+    <li>Execução de contratos firmados com clientes</li>
+    <li>Prevenção a fraudes e garantia da segurança da plataforma</li>
+    <li>Exercício regular de direitos em processos administrativos ou judiciais</li>
+    <li>Proteção ao crédito</li>
+    <li>Prestação de serviços relacionados à gestão de margem consignável</li>
+    <li>Autenticação e controle de acesso dos usuários</li>
+    <li>Exibição de contracheques, contratos e saldo devedor ao servidor</li>
+    <li>Simulação de empréstimos consignados (sem obrigação de contratação)</li>
+    <li>Geração e gestão de tokens de autorização alternativos à senha</li>
+    <li>Suporte ao usuário e atendimento de solicitações</li>
+    <li>Aprimoramento e melhoria contínua da plataforma</li>
+  </ul>
+  <p>O tratamento dos dados ocorre sempre com base nas bases legais previstas na LGPD.</p>
+</section>
+
+<section>
+  <h2>6. Dados Pessoais Tratados</h2>
+  <p>Os dados pessoais podem ser coletados diretamente do usuário ou obtidos por meio de fontes legítimas autorizadas.</p>
+  <h3>6.1 Dados Cadastrais e de Identificação</h3>
+  <table>
+    <thead><tr><th>Dado</th><th>Finalidade</th><th>Base Legal (LGPD)</th></tr></thead>
+    <tbody>
+      <tr><td>Nome completo</td><td>Identificação e comunicação</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+      <tr><td>CPF</td><td>Identificação única do servidor</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+      <tr><td>E-mail</td><td>Comunicação e recuperação de acesso</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+      <tr><td>Login/Usuário e Senha</td><td>Autenticação no sistema</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+      <tr><td>Número de matrícula</td><td>Identificação funcional</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+      <tr><td>Cargo / Órgão / Secretaria</td><td>Cálculo de margens e elegibilidade</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+      <tr><td>Data de admissão / Status funcional</td><td>Validação de elegibilidade</td><td>Obrigação legal (Art. 7º, II)</td></tr>
+    </tbody>
+  </table>
+  <h3>6.2 Dados Financeiros Sensíveis</h3>
+  <div class="highlight"><strong>Atenção:</strong> Dados financeiros recebem proteção reforçada e são tratados mediante consentimento específico (Art. 11, I da LGPD).</div>
+  <table>
+    <thead><tr><th>Dado</th><th>Finalidade</th><th>Base Legal (LGPD)</th></tr></thead>
+    <tbody>
+      <tr><td>Salário base</td><td>Cálculo de margem consignável</td><td>Consentimento específico (Art. 11, I)</td></tr>
+      <tr><td>Margem consignável (disponível e comprometida)</td><td>Exibição do limite disponível</td><td>Consentimento específico (Art. 11, I)</td></tr>
+      <tr><td>Contratos de empréstimo consignado</td><td>Gerenciamento de contratos ativos</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+      <tr><td>Saldo devedor</td><td>Consulta de pendências financeiras</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+      <tr><td>Dados de contracheques mensais</td><td>Exibição do histórico de remunerações</td><td>Consentimento específico (Art. 11, I)</td></tr>
+      <tr><td>Histórico de simulações</td><td>Análise de propostas de crédito</td><td>Execução de contrato (Art. 7º, V)</td></tr>
+    </tbody>
+  </table>
+  <h3>6.3 Dados de Identificação Digital e Segurança</h3>
+  <table>
+    <thead><tr><th>Dado</th><th>Finalidade</th><th>Base Legal (LGPD)</th></tr></thead>
+    <tbody>
+      <tr><td>Endereço IP</td><td>Segurança e prevenção de fraudes</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+      <tr><td>Modelo do dispositivo e sistema operacional</td><td>Suporte técnico e compatibilidade</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+      <tr><td>Registros de acesso (login/logout)</td><td>Segurança e auditoria</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+      <tr><td>Logs de operações realizadas</td><td>Auditoria e rastreabilidade</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+      <tr><td>Token de API (Bearer)</td><td>Autenticação de sessões</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+      <tr><td>Token de servidor (9 caracteres)</td><td>Autorização alternativa para contratos</td><td>Consentimento (Art. 7º, I)</td></tr>
+      <tr><td>Versão do aplicativo</td><td>Atualizações e correções</td><td>Legítimo interesse (Art. 7º, IX)</td></tr>
+    </tbody>
+  </table>
+  <h3>6.4 Dados NÃO Coletados</h3>
+  <div class="no-collect">
+    O aplicativo Consigi <strong>NÃO coleta</strong>:
+    <ul style="margin-top:8px;">
+      <li>Dados biométricos (impressões digitais, reconhecimento facial)</li>
+      <li>Localização geográfica (GPS)</li>
+      <li>Lista de contatos do dispositivo</li>
+      <li>Fotos ou vídeos pessoais</li>
+      <li>Mensagens SMS ou chamadas telefônicas</li>
+      <li>Informações de outros aplicativos instalados</li>
+      <li>Dados de navegação em outros sites ou apps</li>
     </ul>
-    <p>Ao utilizar o Consigi, você confirma que leu, compreendeu e concordou com os termos desta Política.</p>
-    <div class="highlight">
-      <strong>Sobre o Consigi:</strong> O Consigi é uma ferramenta de gestão de contracheques e contratos de crédito consignado exclusivamente para servidores públicos municipais. O aplicativo não concede empréstimos — ele exibe e gerencia informações de contratos já existentes celebrados entre o servidor e as instituições financeiras conveniadas ao município.
-    </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <h2>2. Dados Coletados</h2>
+<section>
+  <h2>7. Armazenamento Local no Dispositivo (App Mobile)</h2>
+  <p>O aplicativo utiliza tecnologias de armazenamento local no dispositivo do usuário:</p>
+  <table>
+    <thead><tr><th>Tecnologia</th><th>Dados Armazenados</th><th>Criptografado?</th></tr></thead>
+    <tbody>
+      <tr><td><strong>SecureStore (Expo)</strong></td><td>Token de autenticação, credenciais de acesso</td><td>Sim (iOS Keychain / Android Keystore)</td></tr>
+      <tr><td><strong>AsyncStorage</strong></td><td>Ambiente selecionado, configurações do app</td><td>Não (dados não sensíveis)</td></tr>
+    </tbody>
+  </table>
+  <p>O usuário pode limpar todos os dados locais acessando <strong>Configurações do Android → Apps → Consigi → Limpar Dados</strong>.</p>
+  <div class="info">
+    <strong>Sobre cookies:</strong> Por ser um aplicativo mobile nativo (React Native), o Consigi <strong>não utiliza cookies de navegador</strong>. A versão Web da plataforma pode utilizar cookies técnicos essenciais para funcionamento e sessão, que podem ser gerenciados nas configurações do navegador.
+  </div>
+</section>
 
-    <h3>2.1. Dados de Identificação</h3>
-    <table>
-      <thead><tr><th>Dado</th><th>Finalidade</th><th>Base Legal (LGPD)</th></tr></thead>
-      <tbody>
-        <tr><td>CPF</td><td>Identificação única do servidor</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>Nome completo</td><td>Identificação e comunicação</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>E-mail</td><td>Comunicação e recuperação de acesso</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>Login/Usuário</td><td>Autenticação no sistema</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-      </tbody>
-    </table>
+<section>
+  <h2>8. Permissões do Aplicativo (Android)</h2>
+  <table>
+    <thead><tr><th>Permissão</th><th>Justificativa</th><th>Obrigatória?</th></tr></thead>
+    <tbody>
+      <tr><td>INTERNET</td><td>Comunicação com a API backend (essencial)</td><td>Sim</td></tr>
+      <tr><td>CAMERA</td><td>Prevista para capturas futuras — não utilizada na versão atual</td><td>Não</td></tr>
+      <tr><td>READ_EXTERNAL_STORAGE</td><td>Prevista para leitura de arquivos futuros — não utilizada</td><td>Não</td></tr>
+      <tr><td>WRITE_EXTERNAL_STORAGE</td><td>Prevista para exportação de contracheques — não utilizada</td><td>Não</td></tr>
+    </tbody>
+  </table>
+  <p>As permissões de câmera e armazenamento podem ser revogadas nas configurações do Android sem afetar o funcionamento atual do aplicativo.</p>
+</section>
 
-    <h3>2.2. Dados Profissionais</h3>
-    <table>
-      <thead><tr><th>Dado</th><th>Finalidade</th><th>Base Legal (LGPD)</th></tr></thead>
-      <tbody>
-        <tr><td>Número de matrícula</td><td>Identificação funcional</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>Cargo/Função</td><td>Cálculo de margens e elegibilidade</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>Órgão/Autarquia</td><td>Identificação do vínculo empregatício</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>Data de admissão</td><td>Cálculo de elegibilidade</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>Status funcional (ativo/inativo)</td><td>Validação de elegibilidade</td><td>Obrigação legal (Art. 7º, II)</td></tr>
-      </tbody>
-    </table>
+<section>
+  <h2>9. Compartilhamento de Dados</h2>
+  <p>Os dados pessoais poderão ser compartilhados quando necessário:</p>
+  <ul>
+    <li><strong>Autoridades públicas</strong> — mediante determinação legal ou judicial</li>
+    <li><strong>Instituições financeiras parceiras</strong> — CPF, matrícula, margem disponível, para formalização de contratos de crédito consignado</li>
+    <li><strong>Órgão empregador (Município)</strong> — matrícula e contratos, para processamento de descontos em folha</li>
+    <li><strong>Prestadores de serviço de infraestrutura</strong> — dados técnicos para hospedagem e monitoramento</li>
+    <li><strong>Cumprimento de obrigações legais ou regulatórias</strong></li>
+  </ul>
+  <p>Em todos os casos, o compartilhamento ocorre apenas na medida necessária para a finalidade pretendida.</p>
+  <div class="highlight">
+    <strong>Garantia:</strong> A Nobe Software <strong>NÃO vende, aluga ou compartilha</strong> dados pessoais para fins de marketing, publicidade ou prospecção comercial de terceiros. Todos os dados são armazenados em servidores localizados no Brasil.
+  </div>
+</section>
 
-    <h3>2.3. Dados Financeiros Sensíveis</h3>
-    <div class="highlight"><strong>Atenção:</strong> Dados financeiros recebem proteção reforçada e são tratados mediante consentimento específico.</div>
-    <table>
-      <thead><tr><th>Dado</th><th>Finalidade</th><th>Base Legal (LGPD)</th></tr></thead>
-      <tbody>
-        <tr><td>Salário base</td><td>Cálculo de margem consignável</td><td>Consentimento específico (Art. 11, I)</td></tr>
-        <tr><td>Margem consignável</td><td>Exibição do limite disponível</td><td>Consentimento específico (Art. 11, I)</td></tr>
-        <tr><td>Contratos de empréstimo consignado</td><td>Gerenciamento de contratos ativos</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>Saldo devedor</td><td>Consulta de pendências financeiras</td><td>Execução de contrato (Art. 7º, V)</td></tr>
-        <tr><td>Dados de contracheques</td><td>Consulta de remunerações mensais</td><td>Consentimento específico (Art. 11, I)</td></tr>
-      </tbody>
-    </table>
+<section>
+  <h2>10. Segurança da Informação</h2>
+  <p>A Consigi adota as seguintes medidas técnicas e administrativas para proteger os dados pessoais:</p>
+  <ul>
+    <li>HTTPS/TLS: todas as comunicações entre app e API são criptografadas</li>
+    <li>SecureStore: dados sensíveis criptografados no dispositivo</li>
+    <li>Controle restrito de acesso: cada usuário acessa apenas seus próprios dados</li>
+    <li>Tokens Bearer com expiração: sessões invalidadas após inatividade</li>
+    <li>Logs de auditoria: registros de acessos e operações sensíveis</li>
+    <li>Compromisso de confidencialidade por todos os colaboradores</li>
+    <li>Armazenamento em ambientes seguros dentro do Brasil</li>
+    <li>Monitoramento contínuo e alertas de segurança</li>
+    <li>Backups regulares com redundância geográfica nacional</li>
+  </ul>
+  <p>Apesar das medidas adotadas, nenhum sistema é completamente imune a riscos. Caso ocorra incidente de segurança envolvendo dados pessoais, o Controlador comunicará os titulares afetados e a <strong>Autoridade Nacional de Proteção de Dados (ANPD)</strong> conforme previsto na legislação.</p>
+</section>
 
-    <h3>2.4. Dados NÃO Coletados</h3>
-    <div class="no-collect">
-      <ul>
-        <li>❌ Dados biométricos (impressões digitais, reconhecimento facial)</li>
-        <li>❌ Localização geográfica (GPS)</li>
-        <li>❌ Lista de contatos do dispositivo</li>
-        <li>❌ Fotos ou vídeos pessoais</li>
-        <li>❌ Mensagens SMS ou chamadas telefônicas</li>
-        <li>❌ Informações de outros aplicativos instalados</li>
-        <li>❌ Dados de navegação em outros sites ou apps</li>
-      </ul>
-    </div>
-  </section>
+<section>
+  <h2>11. Retenção e Exclusão de Dados</h2>
+  <table>
+    <thead><tr><th>Categoria de Dados</th><th>Período de Retenção</th></tr></thead>
+    <tbody>
+      <tr><td>Dados cadastrais (nome, CPF, e-mail)</td><td>Até solicitação de exclusão ou 5 anos após término do vínculo</td></tr>
+      <tr><td>Contratos de empréstimo consignado</td><td>20 anos após quitação (exigência legal)</td></tr>
+      <tr><td>Logs de auditoria e segurança</td><td>6 meses a 1 ano (Art. 15 Marco Civil da Internet)</td></tr>
+      <tr><td>Simulações não contratadas</td><td>90 dias</td></tr>
+      <tr><td>Tokens de autenticação ativos</td><td>Até logout ou expiração</td></tr>
+    </tbody>
+  </table>
+  <p>O usuário pode solicitar a exclusão de seus dados pessoais a qualquer momento, exceto quando houver obrigação legal de retenção. Prazo de resposta: até <strong>15 dias úteis</strong>.</p>
+</section>
 
-  <section>
-    <h2>3. Finalidades do Tratamento</h2>
-    <ul>
-      <li><strong>Autenticação e controle de acesso</strong> — validar identidade e gerenciar sessões de login</li>
-      <li><strong>Gestão de contratos consignados</strong> — listar e exibir detalhes de contratos ativos</li>
-      <li><strong>Consulta de contracheques</strong> — exibir histórico mensal de remunerações</li>
-      <li><strong>Consulta de saldo devedor</strong> — acompanhar saldos pendentes de contratos</li>
-      <li><strong>Simulação de empréstimos</strong> — calcular propostas sem obrigação de contratação</li>
-      <li><strong>Gestão de tokens de autorização</strong> — gerar e gerenciar tokens alternativos à senha</li>
-      <li><strong>Suporte e melhoria do serviço</strong> — corrigir erros e melhorar a experiência</li>
-      <li><strong>Segurança e prevenção de fraudes</strong> — detectar e prevenir acessos não autorizados</li>
-    </ul>
-  </section>
+<section>
+  <h2>12. Direitos do Titular (LGPD)</h2>
+  <p>Nos termos dos Artigos 17 a 22 da LGPD, o titular dos dados poderá solicitar:</p>
+  <ul>
+    <li>Confirmação da existência de tratamento de dados</li>
+    <li>Acesso aos dados pessoais tratados</li>
+    <li>Correção de dados incompletos, inexatos ou desatualizados</li>
+    <li>Anonimização, bloqueio ou eliminação de dados desnecessários</li>
+    <li>Portabilidade dos dados (formato JSON ou CSV)</li>
+    <li>Informação sobre compartilhamento com terceiros</li>
+    <li>Revogação do consentimento para dados financeiros sensíveis</li>
+    <li>Oposição ao tratamento baseado em legítimo interesse</li>
+  </ul>
+  <p>As solicitações poderão ser feitas por meio dos canais de atendimento disponibilizados pelo Controlador (ver Seção 15).</p>
+</section>
 
-  <section>
-    <h2>4. Compartilhamento de Dados</h2>
-    <h3>Com quem compartilhamos</h3>
-    <ul>
-      <li><strong>Instituições financeiras parceiras:</strong> CPF, nome, matrícula, salário e margem disponível — para formalização de contratos de crédito consignado</li>
-      <li><strong>Órgão empregador (Município):</strong> matrícula e contratos — para processamento de descontos em folha</li>
-      <li><strong>Provedores de infraestrutura:</strong> dados técnicos (logs, IPs) — para hospedagem e monitoramento</li>
-      <li><strong>Autoridades públicas:</strong> conforme requisição judicial ou administrativa</li>
-    </ul>
-    <div class="highlight">
-      <strong>Garantia:</strong> A ISS Intel <strong>NÃO vende, aluga ou compartilha</strong> dados pessoais para fins de marketing, publicidade ou prospecção comercial de terceiros.
-    </div>
-    <p>Atualmente, o Consigi <strong>não realiza transferência internacional de dados</strong>. Todos os dados são armazenados em servidores localizados no Brasil.</p>
-  </section>
+<section>
+  <h2>13. Menores de Idade</h2>
+  <p>O Aplicativo Consigi <strong>não é destinado a menores de 18 anos</strong>. Servidores públicos com vínculo empregatício ativo devem ser maiores de idade. Caso identifiquemos dados de menores, esses dados serão imediatamente excluídos.</p>
+</section>
 
-  <section>
-    <h2>5. Segurança dos Dados</h2>
-    <ul>
-      <li>✅ <strong>HTTPS/TLS:</strong> todas as comunicações entre app e API são criptografadas</li>
-      <li>✅ <strong>SecureStore:</strong> dados sensíveis criptografados no dispositivo (iOS Keychain / Android Keystore)</li>
-      <li>✅ <strong>Tokens Bearer:</strong> autenticação stateless com expiração por inatividade</li>
-      <li>✅ <strong>Acesso restrito:</strong> cada usuário acessa apenas seus próprios dados</li>
-      <li>✅ <strong>Logs de auditoria:</strong> registros de acessos e operações sensíveis</li>
-      <li>✅ <strong>Backups regulares:</strong> cópias de segurança diárias dentro do Brasil</li>
-    </ul>
-  </section>
+<section>
+  <h2>14. Alterações nesta Política</h2>
+  <p>Esta Política poderá ser atualizada a qualquer momento para refletir melhorias na plataforma, alterações legais ou adequações operacionais. Alterações substanciais serão comunicadas via notificação no aplicativo ou e-mail cadastrado. Recomendamos que os usuários revisem este documento periodicamente.</p>
+  <table>
+    <thead><tr><th>Versão</th><th>Data</th><th>Principais Alterações</th></tr></thead>
+    <tbody>
+      <tr><td>1.0</td><td>2025</td><td>Versão inicial</td></tr>
+      <tr><td>2.0</td><td>Março de 2026</td><td>Tokens de Servidor, atualização conforme LGPD</td></tr>
+      <tr><td>2.1</td><td>Maio de 2026</td><td>Detalhamento de permissões Android, armazenamento local, bases legais por dado, tabela de retenção, seção de princípios LGPD</td></tr>
+    </tbody>
+  </table>
+</section>
 
-  <section>
-    <h2>6. Retenção e Exclusão de Dados</h2>
-    <table>
-      <thead><tr><th>Categoria</th><th>Período de Retenção</th></tr></thead>
-      <tbody>
-        <tr><td>Dados cadastrais (nome, CPF, e-mail)</td><td>Até solicitação de exclusão ou 5 anos após término do vínculo</td></tr>
-        <tr><td>Contratos de empréstimo</td><td>20 anos após quitação (exigência legal)</td></tr>
-        <tr><td>Logs de auditoria e segurança</td><td>6 meses a 1 ano</td></tr>
-        <tr><td>Simulações não contratadas</td><td>90 dias</td></tr>
-        <tr><td>Tokens de autenticação ativos</td><td>Até logout ou expiração</td></tr>
-      </tbody>
-    </table>
-    <p>O usuário pode solicitar a exclusão de seus dados a qualquer momento pelo e-mail <strong>privacidade@issintel.com.br</strong>. Prazo de resposta: até 15 dias úteis.</p>
-  </section>
-
-  <section>
-    <h2>7. Seus Direitos (LGPD)</h2>
-    <p>Conforme os Artigos 17 a 22 da LGPD, você tem os seguintes direitos:</p>
-    <ul>
-      <li><strong>Confirmação e acesso</strong> — saber se e quais dados tratamos</li>
-      <li><strong>Correção</strong> — corrigir dados incompletos ou inexatos</li>
-      <li><strong>Exclusão</strong> — solicitar remoção de dados desnecessários</li>
-      <li><strong>Portabilidade</strong> — receber seus dados em formato estruturado (JSON/CSV)</li>
-      <li><strong>Revogação do consentimento</strong> — revogar autorização para dados financeiros sensíveis</li>
-      <li><strong>Oposição</strong> — opor-se a tratamento baseado em legítimo interesse</li>
-      <li><strong>Informação sobre compartilhamento</strong> — saber com quem seus dados são compartilhados</li>
-    </ul>
-    <p>Para exercer seus direitos, entre em contato com nosso DPO: <strong>dpo@issintel.com.br</strong></p>
-  </section>
-
-  <section>
-    <h2>8. Permissões do Aplicativo (Android)</h2>
-    <table>
-      <thead><tr><th>Permissão</th><th>Uso</th><th>Obrigatória?</th></tr></thead>
-      <tbody>
-        <tr><td>INTERNET</td><td>Comunicação com a API backend</td><td>✅ Sim</td></tr>
-        <tr><td>CAMERA</td><td>Não utilizada na versão atual</td><td>❌ Não</td></tr>
-        <tr><td>READ_EXTERNAL_STORAGE</td><td>Não utilizada na versão atual</td><td>❌ Não</td></tr>
-        <tr><td>WRITE_EXTERNAL_STORAGE</td><td>Não utilizada na versão atual</td><td>❌ Não</td></tr>
-      </tbody>
-    </table>
-    <p>As permissões de câmera e armazenamento podem ser revogadas nas configurações do Android sem afetar o funcionamento atual do aplicativo.</p>
-  </section>
-
-  <section>
-    <h2>9. Menores de Idade</h2>
-    <p>O Consigi <strong>não é destinado a menores de 18 anos</strong>. Servidores públicos com vínculo empregatício ativo devem ser maiores de idade. Caso identifiquemos dados de menores, esses dados serão imediatamente excluídos.</p>
-  </section>
-
-  <section>
-    <h2>10. Alterações nesta Política</h2>
-    <p>Esta Política pode ser atualizada periodicamente. Alterações substanciais serão comunicadas via notificação push no aplicativo e/ou e-mail cadastrado. A versão mais atualizada estará sempre disponível nesta página.</p>
-    <table>
-      <thead><tr><th>Versão</th><th>Data</th><th>Alteração</th></tr></thead>
-      <tbody>
-        <tr><td>1.0.0</td><td>2025</td><td>Versão inicial</td></tr>
-        <tr><td>2.0.0</td><td>12/03/2026</td><td>Adição de funcionalidade de Tokens de Servidor, atualização conforme LGPD</td></tr>
-      </tbody>
-    </table>
-  </section>
-
-  <section>
-    <h2>11. Legislação e Foro</h2>
-    <p>Esta Política é regida pelas leis da República Federativa do Brasil, em especial a <strong>LGPD (Lei nº 13.709/2018)</strong>, o <strong>Marco Civil da Internet (Lei nº 12.965/2014)</strong> e o <strong>Código de Defesa do Consumidor (Lei nº 8.078/1990)</strong>.</p>
-  </section>
-
-  <section>
-    <h2>12. Contato e DPO</h2>
-    <p>Nos termos do Art. 41 da LGPD, designamos um Encarregado de Proteção de Dados (DPO) como canal de comunicação entre a ISS Intel, os titulares de dados e a ANPD.</p>
-    <div class="contact-box">
-      <p><strong>ISS Intel Sistemas Inteligentes Ltda.</strong></p>
-      <p>Desenvolvedora do aplicativo Consigi</p>
-      <br />
-      <p><strong>E-mail DPO:</strong> dpo@issintel.com.br</p>
-      <p><strong>E-mail Privacidade:</strong> privacidade@issintel.com.br</p>
-      <br />
-      <p><strong>Prazo de resposta:</strong> até 15 dias úteis após recebimento da solicitação.</p>
-    </div>
-  </section>
+<section>
+  <h2>15. Contato e Encarregado de Dados (DPO)</h2>
+  <p>Em caso de dúvidas, solicitações ou reclamações relacionadas à proteção de dados pessoais, o usuário poderá entrar em contato com o Serviço de Atendimento ao Cliente (SAC) da Consigi ou diretamente com o Encarregado de Proteção de Dados (DPO), nos termos do Art. 41 da LGPD.</p>
+  <div class="contact-box">
+    <p><strong>NOBE SOFTWARE DE GESTÃO INTEGRADA LTDA ME</strong></p>
+    <p><strong>CNPJ:</strong> 14.108.730/0001-15</p>
+    <p><strong>Endereço:</strong> Rua das Estrelas, nº 120, Torre 5, sala 300 — Bairro Vila da Serra, Nova Lima/MG — CEP: 34.006-083</p>
+    <br />
+    <p><strong>E-mail DPO / Privacidade:</strong> privacidade@nobesistemas.com.br</p>
+    <br />
+    <p><strong>Prazo de resposta:</strong> até 15 dias úteis após recebimento da solicitação.</p>
+  </div>
+</section>
 
 </main>
-
 <footer>
-  <p>&copy; 2026 ISS Intel Sistemas Inteligentes Ltda. — Todos os direitos reservados.</p>
-  <p style="margin-top:6px;">Aplicativo Consigi — Gestão de Consignado para Servidores Públicos Municipais</p>
+  <p>&copy; 2026 NOBE SOFTWARE DE GESTÃO INTEGRADA LTDA ME — Todos os direitos reservados.</p>
+  <p style="margin-top:6px;">Consigi — Gestão de Consignado para Servidores Públicos Municipais</p>
 </footer>
-
 </body>
 </html>
