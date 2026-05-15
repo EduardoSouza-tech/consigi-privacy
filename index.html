@@ -226,13 +226,10 @@
   <table>
     <thead><tr><th>Permissão</th><th>Justificativa</th><th>Obrigatória?</th></tr></thead>
     <tbody>
-      <tr><td>INTERNET</td><td>Comunicação com a API backend (essencial)</td><td>Sim</td></tr>
-      <tr><td>CAMERA</td><td>Prevista para capturas futuras — não utilizada na versão atual</td><td>Não</td></tr>
-      <tr><td>READ_EXTERNAL_STORAGE</td><td>Prevista para leitura de arquivos futuros — não utilizada</td><td>Não</td></tr>
-      <tr><td>WRITE_EXTERNAL_STORAGE</td><td>Prevista para exportação de contracheques — não utilizada</td><td>Não</td></tr>
+      <tr><td>INTERNET</td><td>Comunicação com a API backend (essencial para o funcionamento do app)</td><td>Sim</td></tr>
     </tbody>
   </table>
-  <p>As permissões de câmera e armazenamento podem ser revogadas nas configurações do Android sem afetar o funcionamento atual do aplicativo.</p>
+  <p>O aplicativo solicita apenas a permissão de acesso à internet, estritamente necessária para a comunicação com o servidor. Nenhuma permissão de câmera, armazenamento externo, localização ou contatos é solicitada.</p>
 </section>
 
 <section>
